@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('reels.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  .messages {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .message {
+    background-color: rgba(173, 216, 230, 0.7); /* Light blue background */
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: white;
+    display: flex; /* Make the icons appear side by side */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .message span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: rgba(255, 255, 255, 0.7); /* Light blue button */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* Lighter blue on hover */
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  .fa {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .fa-trash:hover,
+  }
+  
